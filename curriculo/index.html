@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Currículo - Alisson</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<header>
+    <div class="profile-header">
+        <img src="imagem/perfil.jpeg" alt="Foto de Perfil" class="profile-image"> 
+        <div class="profile-info">
+            <h1>Alisson Santos</h1>
+            <p>Analista e Desenvolvedor de sistemas em formação </p>
+        </div>
+    </div>
+</header>
+<div class="container">  
+    <section class="section" id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>
+            Profissional dedicado, resiliente, proativo e responsável. Nunca deixo a dificuldade das atividades influenciar na qualidade e sempre entrego tudo da melhor forma possível. Tenho conhecimento básico em linguagens de programação e metodologias aplicáveis a programação e também grande potencial em aprender novas tecnologias. Interessado em aprender, expandir horizontes e conhecimentos.
+        </p>
+    </section>
+    <section class="section" id="experiencia">
+        <h2>Experiência Profissional</h2>
+        <div class="experience-item">
+            <h3>Prefeitura do recife - Auxiliar administrativo executivo</h3>
+            <p>Período: jun de 2021 - Atual · 3 anos 4 meses</p>
+            <p>
+                <li>Habilidades analíticas</li>
+                <li>Liderança de equipe</li>
+                <li>Office 365</li>
+                <li>Análise de dados</li>
+                <li>Análise de requisitos</li>
+            </p>
+        </div>
+        <div class="experience-item">
+            <h3>ONG Infinito Amor - Diretor Fiscal</h3>
+            <p>Período: Janeiro 2023 - Atual · 1 ano 9 messes </p>
+            <p>
+                <li>Gestão Financeira</li>
+                <li>Conhecimento da Legislação</li>
+                <li>Análise de Dados</li>
+                <li>Comunicação Eficaz</li>
+                <li>Liderança e Trabalho em Equipe</li>                
+            </p>
+        </div>
+    </section>
+    <section class="section" id="educacao">
+        <h2>Educação</h2>
+        <div class="education-item">
+            <h3>UNINASSAU - Análise e Desenvolvimento de Sistemas (ADS) </h3>
+            <p>2024 - ATUAL</p>
+        </div>
+        <div class="education-item">
+            <h3>UTFPR MEDIANEIRA - Ciência da Computação (CC) </h3>
+            <p>2021 - 2023 </p>
+        </div>
+        <div class="education-item">
+            <h3>ETE CICERO DIAS, NAVE RECIFE  - Técnico em Multimídia para jogos digitais. </h3>
+            <p>2014 - 2016 </p>
+        </div>
+    </section>
+    <section class="section" id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Boa comunicação e trabalho em equipe;</li>
+            <li>Alta criatividade e resolução de soluções;</li>
+            <li>Conhecimento basico em programação e tecnologias da area;</li>
+            <li>Conhecimento avançado nas areas de Multimídia</li>
+            <li>Apredizagem rapida;</li>
+            <li>Boa gestão de Liderança;</li>
+        </ul>
+    </section>
+</div>
+<footer>
+    <p>Contate-me: <a href="mailto:coimbra.alisson.s@gmail.com">coimbra.alisson.s@gmail.com</a> | (81) 9 8881-6979</p>
+</footer>
+
+<script>
+    document.addEventListener('scroll', function() {
+        var footer = document.querySelector('footer');
+        var windowHeight = window.innerHeight;
+        var documentHeight = document.body.offsetHeight;
+        var scrollPosition = window.scrollY + windowHeight;
+        if (scrollPosition >= documentHeight) {
+            footer.style.visibility = 'visible';
+        } else {
+            footer.style.visibility = 'hidden';
+        }
+    });
+</script>
+</body>
+</html>
